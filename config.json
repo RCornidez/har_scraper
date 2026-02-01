@@ -1,0 +1,16 @@
+{
+  "Host": "0.0.0.0",
+  "ProxyPort": 8080,
+  "filters": {
+    "enabled": true,
+    "domain_patterns": [
+        "*"
+    ],
+    "response_content_type": [  
+        "application/json"
+    ]
+  },
+  "logging" : {
+    "log_matches_only" : true
+  }
+}
