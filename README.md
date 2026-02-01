@@ -35,9 +35,11 @@ go run main.go
 ### 3. install the generated certificate
 Manually install certs/ca.crt into your trusted root store
 
-### 4. open your browser and navigate to your desired site
+### 4. route your browser or your host machine to the running proxy service
 
-### 5. http events will be saved and organized by domain and subdomain
+### 5. open your browser and navigate to your desired site
+
+### 6. http events will be saved and organized by domain and subdomain
 ```
 data/
 └── example.com/            # domain
@@ -46,4 +48,4 @@ data/
     └── static/             # subdomain
         └── 20260101.json
 ```
-### 6. enjoy your structured data
+### 7. enjoy your structured data
